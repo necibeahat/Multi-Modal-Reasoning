@@ -16,6 +16,11 @@ The main difference between RAG and mRAG is:
 
 Vector for the input data. The input data can be text, image, and video data. For example, possible use cases could be video content moderation or image classification.
 
+In this notebook I am using Google's Geimini 1.5 Pro LLM. 
+### Why Gemini?
+These LLMs are multimodal, which means that the models can process information from multiple modalities, including text, images, audio, and video. Reasoning is one of the tasks Gemini performs well in. Gemini is among the top 5 models by [LMSYS ranking](https://lmsys.org/blog/2023-05-25-leaderboard/)
+
+
 ## Limitations:
 
 * **Data dependency:** Needs high-quality paired text and visuals.
