@@ -1,3 +1,4 @@
+![Python version](https://img.shields.io/badge/python-3.9-blue.svg)
 ## Multi-Modal Reasoning
 
 This notebook demonstrates the implementation of multimodal RAG (mRAG) using an academic article specific to the healthcare domain. mRAGs extract information not only from text but also from other modalities like images, videos, and audio. They are powerful because a significant amount of information can be hidden in images that might not be mentioned in the text.
@@ -6,6 +7,9 @@ The main difference between RAG and mRAG is:
 
 * **Text-based RAG:** Takes only text as an input to the retriever. For RAG implementation, please see my repo on [Retrieval Augmentation Generation](https://github.com/necibeahat/Retrieval-Augmentation-Generation).
 * **mRAG:** Uses images/videos and other media formats in addition to text as an input.
+
+## mRAG Architecture
+![Architecture](/images/AI%20in%20Healthcare.jpg)
 
 ## Advantages of mRAG:
 
